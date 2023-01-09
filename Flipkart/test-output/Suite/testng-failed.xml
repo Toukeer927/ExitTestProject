@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="BaseTest.HomePageTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="startTest"/>
+          <include name="compareProduct"/>
+          <include name="CloseBrowser"/>
+          <include name="reportFlush"/>
+        </methods>
+      </class> <!-- BaseTest.HomePageTest -->
+      <class name="BaseTest.FooterPageTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="startTest"/>
+          <include name="CloseBrowser"/>
+          <include name="FaQTest"/>
+          <include name="reportFlush"/>
+        </methods>
+      </class> <!-- BaseTest.FooterPageTest -->
+      <class name="BaseTest.NavigatorTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="Rightnavigate"/>
+          <include name="startTest"/>
+          <include name="CloseBrowser"/>
+          <include name="reportFlush"/>
+        </methods>
+      </class> <!-- BaseTest.NavigatorTest -->
+      <class name="BaseTest.ExplorePlusePageTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="startTest"/>
+          <include name="ExplorePlus"/>
+          <include name="CloseBrowser"/>
+          <include name="reportFlush"/>
+        </methods>
+      </class> <!-- BaseTest.ExplorePlusePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

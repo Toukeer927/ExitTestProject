@@ -1,0 +1,130 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 45, Failures: 10, Errors: 0, Skipped: 34, Time elapsed: 102.036 s <<< FAILURE! - in TestSuite
+ExplorePlus1(BaseTest.ExplorePlusePageTest)  Time elapsed: 1.187 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a class="_21ljIi" href="/plus">...</a> is not clickable at point (223, 37). Other element would receive the click: <div class="_2hriZF _2rbIyg" tabindex="-1">...</div>
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02P4VN', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [94e3ad6b8ceb74220bfd347eaf2cfa94, clickElement {id=b06165d0-43e7-4f67-a039-522d3ce2a1f1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\MOHDTO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56197}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56197/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (94e3ad6b8ceb74220bfd347eaf2cfa94)] -> xpath: //body/div[@id='container']/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/a[2]]
+Session ID: 94e3ad6b8ceb74220bfd347eaf2cfa94
+	at BaseTest.ExplorePlusePageTest.ExplorePlus1(ExplorePlusePageTest.java:45)
+
+SocialTest(BaseTest.FooterPageTest)  Time elapsed: 10.13 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02P4VN', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [94e3ad6b8ceb74220bfd347eaf2cfa94, clickElement {id=4d340a12-997e-4456-abdc-7c9e70fadf5c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\MOHDTO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56197}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56197/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (94e3ad6b8ceb74220bfd347eaf2cfa94)] -> xpath: //*[@id="container"]/div/footer/div/div[3]/div[1]/div[4]/a[1]]
+Session ID: 94e3ad6b8ceb74220bfd347eaf2cfa94
+	at BaseTest.FooterPageTest.SocialTest(FooterPageTest.java:28)
+
+FaQTest(BaseTest.FooterPageTest)  Time elapsed: 5.029 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"div.sCqFh3 div._6fNwiK div._1EQH8l div.row:nth-child(2) div._1uOGFj div._3E8aIl.JxeTOV div:nth-child(2) div:nth-child(2) div._1LJS6T.v2w0ha._3v1CTV div._2NKhZn > p:nth-child(1)"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02P4VN', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [94e3ad6b8ceb74220bfd347eaf2cfa94, findElement {using=css selector, value=div.sCqFh3 div._6fNwiK div._1EQH8l div.row:nth-child(2) div._1uOGFj div._3E8aIl.JxeTOV div:nth-child(2) div:nth-child(2) div._1LJS6T.v2w0ha._3v1CTV div._2NKhZn > p:nth-child(1)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\MOHDTO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56197}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56197/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94e3ad6b8ceb74220bfd347eaf2cfa94
+	at BaseTest.FooterPageTest.FaQTest(FooterPageTest.java:44)
+
+cancel(BaseTest.FooterPageTest)  Time elapsed: 10.121 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02P4VN', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [94e3ad6b8ceb74220bfd347eaf2cfa94, clickElement {id=cfc552b2-80e5-4b1f-ba45-e0d2229b86e1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\MOHDTO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56197}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56197/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (94e3ad6b8ceb74220bfd347eaf2cfa94)] -> xpath: //a[contains(text(),'Cancellation & Returns')]]
+Session ID: 94e3ad6b8ceb74220bfd347eaf2cfa94
+	at BaseTest.FooterPageTest.cancel(FooterPageTest.java:60)
+
+giftCard(BaseTest.FooterPageTest)  Time elapsed: 5.133 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02P4VN', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [94e3ad6b8ceb74220bfd347eaf2cfa94, clickElement {id=a8706cec-56f7-42cb-b413-b45d2770b9ed}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\MOHDTO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56197}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56197/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (94e3ad6b8ceb74220bfd347eaf2cfa94)] -> xpath: //span[contains(text(),'Gift Cards')]]
+Session ID: 94e3ad6b8ceb74220bfd347eaf2cfa94
+	at BaseTest.FooterPageTest.giftCard(FooterPageTest.java:77)
+
+Grocery(BaseTest.GroceryPageTest)  Time elapsed: 4.304 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02P4VN', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [94e3ad6b8ceb74220bfd347eaf2cfa94, findElement {using=name, value=pincode}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\MOHDTO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56197}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56197/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94e3ad6b8ceb74220bfd347eaf2cfa94
+	at BaseTest.GroceryPageTest.Grocery(GroceryPageTest.java:33)
+
+reportFlush(BaseTest.GroceryPageTest)  Time elapsed: 4.319 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02P4VN', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [94e3ad6b8ceb74220bfd347eaf2cfa94, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\MOHDTO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56197}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56197/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94e3ad6b8ceb74220bfd347eaf2cfa94
+
+startTest(BaseTest.HeadersPageTest)  Time elapsed: 0.014 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02P4VN', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [94e3ad6b8ceb74220bfd347eaf2cfa94, get {url=https://www.flipkart.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\MOHDTO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56197}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56197/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94e3ad6b8ceb74220bfd347eaf2cfa94
+
+startTest(BaseTest.HomePageTest)  Time elapsed: 0.014 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02P4VN', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [94e3ad6b8ceb74220bfd347eaf2cfa94, get {url=https://www.flipkart.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\MOHDTO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56197}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56197/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94e3ad6b8ceb74220bfd347eaf2cfa94
+
+startTest(BaseTest.NavigatorTest)  Time elapsed: 0.008 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02P4VN', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [94e3ad6b8ceb74220bfd347eaf2cfa94, get {url=https://www.flipkart.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\MOHDTO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56197}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56197/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94e3ad6b8ceb74220bfd347eaf2cfa94
+

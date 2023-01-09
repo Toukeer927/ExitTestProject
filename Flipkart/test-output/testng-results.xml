@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="32" passed="16" failed="0" skipped="4">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-09T14:03:44 IST" name="Suite" finished-at="2023-01-09T14:10:13 IST" duration-ms="388378">
+    <groups>
+    </groups>
+    <test started-at="2023-01-09T14:03:44 IST" name="Test" finished-at="2023-01-09T14:10:13 IST" duration-ms="388378">
+      <class name="BaseTest.FooterPageTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:BaseTest.FooterPageTest@7fe083b1]" started-at="2023-01-09T14:07:34 IST" name="startTest" finished-at="2023-01-09T14:07:36 IST" duration-ms="1179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BaseTest.FooterPageTest.SocialTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="SocialTest()[pri:1, instance:BaseTest.FooterPageTest@7fe083b1]" started-at="2023-01-09T14:07:36 IST" name="SocialTest" finished-at="2023-01-09T14:08:33 IST" duration-ms="57658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SocialTest -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:BaseTest.FooterPageTest@7fe083b1]" started-at="2023-01-09T14:08:33 IST" name="reportFlush" finished-at="2023-01-09T14:08:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SocialTest status=SUCCESS method=FooterPageTest.SocialTest()[pri:1, instance:BaseTest.FooterPageTest@7fe083b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:BaseTest.FooterPageTest@7fe083b1]" started-at="2023-01-09T14:08:33 IST" name="startTest" finished-at="2023-01-09T14:08:35 IST" duration-ms="1847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BaseTest.FooterPageTest.FaQTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="FaQTest()[pri:2, instance:BaseTest.FooterPageTest@7fe083b1]" started-at="2023-01-09T14:08:35 IST" name="FaQTest" finished-at="2023-01-09T14:08:35 IST" duration-ms="9" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at ExcelReport.ExcelManager.toCheckExecutionRequired(ExcelManager.java:37)
+at BaseTest.FooterPageTest.FaQTest(FooterPageTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FaQTest -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:BaseTest.FooterPageTest@7fe083b1]" started-at="2023-01-09T14:08:35 IST" name="reportFlush" finished-at="2023-01-09T14:08:35 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FaQTest status=SKIP method=FooterPageTest.FaQTest()[pri:2, instance:BaseTest.FooterPageTest@7fe083b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:BaseTest.FooterPageTest@7fe083b1]" started-at="2023-01-09T14:08:35 IST" name="startTest" finished-at="2023-01-09T14:08:37 IST" duration-ms="1935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BaseTest.FooterPageTest.cancel() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="cancel()[pri:3, instance:BaseTest.FooterPageTest@7fe083b1]" started-at="2023-01-09T14:08:37 IST" name="cancel" finished-at="2023-01-09T14:09:04 IST" duration-ms="26727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancel -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:BaseTest.FooterPageTest@7fe083b1]" started-at="2023-01-09T14:09:04 IST" name="reportFlush" finished-at="2023-01-09T14:09:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cancel status=SUCCESS method=FooterPageTest.cancel()[pri:3, instance:BaseTest.FooterPageTest@7fe083b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:BaseTest.FooterPageTest@7fe083b1]" started-at="2023-01-09T14:09:04 IST" name="startTest" finished-at="2023-01-09T14:09:05 IST" duration-ms="1528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BaseTest.FooterPageTest.giftCard() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="giftCard()[pri:4, instance:BaseTest.FooterPageTest@7fe083b1]" started-at="2023-01-09T14:09:05 IST" name="giftCard" finished-at="2023-01-09T14:09:52 IST" duration-ms="46310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giftCard -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:BaseTest.FooterPageTest@7fe083b1]" started-at="2023-01-09T14:09:52 IST" name="reportFlush" finished-at="2023-01-09T14:09:52 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=giftCard status=SUCCESS method=FooterPageTest.giftCard()[pri:4, instance:BaseTest.FooterPageTest@7fe083b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+      </class> <!-- BaseTest.FooterPageTest -->
+      <class name="BaseTest.HeadersPageTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:BaseTest.HeadersPageTest@16afbd92]" started-at="2023-01-09T14:05:59 IST" name="startTest" finished-at="2023-01-09T14:06:00 IST" duration-ms="1350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BaseTest.HeadersPageTest.headersTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="headersTest()[pri:1, instance:BaseTest.HeadersPageTest@16afbd92]" started-at="2023-01-09T14:06:00 IST" name="headersTest" finished-at="2023-01-09T14:06:06 IST" duration-ms="5466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headersTest -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:BaseTest.HeadersPageTest@16afbd92]" started-at="2023-01-09T14:06:06 IST" name="reportFlush" finished-at="2023-01-09T14:06:06 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=headersTest status=SUCCESS method=HeadersPageTest.headersTest()[pri:1, instance:BaseTest.HeadersPageTest@16afbd92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:BaseTest.HeadersPageTest@16afbd92]" started-at="2023-01-09T14:06:06 IST" name="startTest" finished-at="2023-01-09T14:06:07 IST" duration-ms="1096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BaseTest.HeadersPageTest.electronic() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="electronic()[pri:2, instance:BaseTest.HeadersPageTest@16afbd92]" started-at="2023-01-09T14:06:07 IST" name="electronic" finished-at="2023-01-09T14:06:17 IST" duration-ms="10384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- electronic -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:BaseTest.HeadersPageTest@16afbd92]" started-at="2023-01-09T14:06:17 IST" name="reportFlush" finished-at="2023-01-09T14:06:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=electronic status=SUCCESS method=HeadersPageTest.electronic()[pri:2, instance:BaseTest.HeadersPageTest@16afbd92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:BaseTest.HeadersPageTest@16afbd92]" started-at="2023-01-09T14:06:17 IST" name="startTest" finished-at="2023-01-09T14:06:19 IST" duration-ms="1289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BaseTest.HeadersPageTest.offer() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="offer()[pri:3, instance:BaseTest.HeadersPageTest@16afbd92]" started-at="2023-01-09T14:06:19 IST" name="offer" finished-at="2023-01-09T14:06:29 IST" duration-ms="10490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- offer -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:BaseTest.HeadersPageTest@16afbd92]" started-at="2023-01-09T14:06:29 IST" name="reportFlush" finished-at="2023-01-09T14:06:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=offer status=SUCCESS method=HeadersPageTest.offer()[pri:3, instance:BaseTest.HeadersPageTest@16afbd92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:BaseTest.HeadersPageTest@16afbd92]" started-at="2023-01-09T14:06:29 IST" name="startTest" finished-at="2023-01-09T14:06:31 IST" duration-ms="1813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BaseTest.HeadersPageTest.beauty() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="beauty()[pri:4, instance:BaseTest.HeadersPageTest@16afbd92]" started-at="2023-01-09T14:06:31 IST" name="beauty" finished-at="2023-01-09T14:06:41 IST" duration-ms="10594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beauty -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:BaseTest.HeadersPageTest@16afbd92]" started-at="2023-01-09T14:06:41 IST" name="reportFlush" finished-at="2023-01-09T14:06:41 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=beauty status=SUCCESS method=HeadersPageTest.beauty()[pri:4, instance:BaseTest.HeadersPageTest@16afbd92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:BaseTest.HeadersPageTest@16afbd92]" started-at="2023-01-09T14:06:41 IST" name="startTest" finished-at="2023-01-09T14:06:43 IST" duration-ms="1502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BaseTest.HeadersPageTest.TwoWhellers() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="TwoWhellers()[pri:5, instance:BaseTest.HeadersPageTest@16afbd92]" started-at="2023-01-09T14:06:43 IST" name="TwoWhellers" finished-at="2023-01-09T14:06:59 IST" duration-ms="15512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TwoWhellers -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:BaseTest.HeadersPageTest@16afbd92]" started-at="2023-01-09T14:06:59 IST" name="reportFlush" finished-at="2023-01-09T14:06:59 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TwoWhellers status=SUCCESS method=HeadersPageTest.TwoWhellers()[pri:5, instance:BaseTest.HeadersPageTest@16afbd92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:BaseTest.HeadersPageTest@16afbd92]" started-at="2023-01-09T14:06:59 IST" name="startTest" finished-at="2023-01-09T14:07:00 IST" duration-ms="1238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BaseTest.HeadersPageTest.BecameSeller() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="BecameSeller()[pri:6, instance:BaseTest.HeadersPageTest@16afbd92]" started-at="2023-01-09T14:07:00 IST" name="BecameSeller" finished-at="2023-01-09T14:07:29 IST" duration-ms="28934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BecameSeller -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:BaseTest.HeadersPageTest@16afbd92]" started-at="2023-01-09T14:07:29 IST" name="reportFlush" finished-at="2023-01-09T14:07:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BecameSeller status=SUCCESS method=HeadersPageTest.BecameSeller()[pri:6, instance:BaseTest.HeadersPageTest@16afbd92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+      </class> <!-- BaseTest.HeadersPageTest -->
+      <class name="BaseTest.ExplorePlusePageTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:BaseTest.ExplorePlusePageTest@23c388c2]" started-at="2023-01-09T14:09:52 IST" name="startTest" finished-at="2023-01-09T14:09:53 IST" duration-ms="1641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BaseTest.ExplorePlusePageTest.ExplorePlus() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="ExplorePlus()[pri:1, instance:BaseTest.ExplorePlusePageTest@23c388c2]" started-at="2023-01-09T14:09:53 IST" name="ExplorePlus" finished-at="2023-01-09T14:09:53 IST" duration-ms="37" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at ExcelReport.ExcelManager.toCheckExecutionRequired(ExcelManager.java:37)
+at BaseTest.ExplorePlusePageTest.ExplorePlus(ExplorePlusePageTest.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExplorePlus -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:BaseTest.ExplorePlusePageTest@23c388c2]" started-at="2023-01-09T14:09:53 IST" name="reportFlush" finished-at="2023-01-09T14:09:53 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExplorePlus status=SKIP method=ExplorePlusePageTest.ExplorePlus()[pri:1, instance:BaseTest.ExplorePlusePageTest@23c388c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:BaseTest.ExplorePlusePageTest@23c388c2]" started-at="2023-01-09T14:09:53 IST" name="startTest" finished-at="2023-01-09T14:09:55 IST" duration-ms="2030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BaseTest.ExplorePlusePageTest.ExplorePlus1() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="ExplorePlus1()[pri:2, instance:BaseTest.ExplorePlusePageTest@23c388c2]" started-at="2023-01-09T14:09:55 IST" name="ExplorePlus1" finished-at="2023-01-09T14:10:13 IST" duration-ms="17334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExplorePlus1 -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:BaseTest.ExplorePlusePageTest@23c388c2]" started-at="2023-01-09T14:10:13 IST" name="reportFlush" finished-at="2023-01-09T14:10:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExplorePlus1 status=SUCCESS method=ExplorePlusePageTest.ExplorePlus1()[pri:2, instance:BaseTest.ExplorePlusePageTest@23c388c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+      </class> <!-- BaseTest.ExplorePlusePageTest -->
+      <class name="BaseTest.GroceryPageTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:BaseTest.GroceryPageTest@2d72f75e]" started-at="2023-01-09T14:05:19 IST" name="startTest" finished-at="2023-01-09T14:05:21 IST" duration-ms="1828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BaseTest.GroceryPageTest.Grocery() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Grocery()[pri:1, instance:BaseTest.GroceryPageTest@2d72f75e]" started-at="2023-01-09T14:05:21 IST" name="Grocery" finished-at="2023-01-09T14:05:48 IST" duration-ms="27817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Grocery -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:BaseTest.GroceryPageTest@2d72f75e]" started-at="2023-01-09T14:05:48 IST" name="reportFlush" finished-at="2023-01-09T14:05:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Grocery status=SUCCESS method=GroceryPageTest.Grocery()[pri:1, instance:BaseTest.GroceryPageTest@2d72f75e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:BaseTest.GroceryPageTest@2d72f75e]" started-at="2023-01-09T14:05:48 IST" name="startTest" finished-at="2023-01-09T14:05:50 IST" duration-ms="1384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BaseTest.GroceryPageTest.Cart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Cart()[pri:2, instance:BaseTest.GroceryPageTest@2d72f75e]" started-at="2023-01-09T14:05:50 IST" name="Cart" finished-at="2023-01-09T14:05:59 IST" duration-ms="9192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cart -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:BaseTest.GroceryPageTest@2d72f75e]" started-at="2023-01-09T14:05:59 IST" name="reportFlush" finished-at="2023-01-09T14:05:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Cart status=SUCCESS method=GroceryPageTest.Cart()[pri:2, instance:BaseTest.GroceryPageTest@2d72f75e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+      </class> <!-- BaseTest.GroceryPageTest -->
+      <class name="BaseTest.NavigatorTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:BaseTest.NavigatorTest@2c5d601e]" started-at="2023-01-09T14:07:29 IST" name="startTest" finished-at="2023-01-09T14:07:31 IST" duration-ms="1980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BaseTest.NavigatorTest.Rightnavigate() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Rightnavigate()[pri:1, instance:BaseTest.NavigatorTest@2c5d601e]" started-at="2023-01-09T14:07:31 IST" name="Rightnavigate" finished-at="2023-01-09T14:07:31 IST" duration-ms="4" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at ExcelReport.ExcelManager.toCheckExecutionRequired(ExcelManager.java:37)
+at BaseTest.NavigatorTest.Rightnavigate(NavigatorTest.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Rightnavigate -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:BaseTest.NavigatorTest@2c5d601e]" started-at="2023-01-09T14:07:31 IST" name="reportFlush" finished-at="2023-01-09T14:07:31 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Rightnavigate status=SKIP method=NavigatorTest.Rightnavigate()[pri:1, instance:BaseTest.NavigatorTest@2c5d601e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:BaseTest.NavigatorTest@2c5d601e]" started-at="2023-01-09T14:07:31 IST" name="startTest" finished-at="2023-01-09T14:07:32 IST" duration-ms="1721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BaseTest.NavigatorTest.leftNavigate() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="leftNavigate()[pri:2, instance:BaseTest.NavigatorTest@2c5d601e]" started-at="2023-01-09T14:07:32 IST" name="leftNavigate" finished-at="2023-01-09T14:07:34 IST" duration-ms="2085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leftNavigate -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:BaseTest.NavigatorTest@2c5d601e]" started-at="2023-01-09T14:07:34 IST" name="reportFlush" finished-at="2023-01-09T14:07:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=leftNavigate status=SUCCESS method=NavigatorTest.leftNavigate()[pri:2, instance:BaseTest.NavigatorTest@2c5d601e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+      </class> <!-- BaseTest.NavigatorTest -->
+      <class name="BaseTest.HomePageTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:BaseTest.HomePageTest@76b74e9c]" started-at="2023-01-09T14:04:16 IST" name="startTest" finished-at="2023-01-09T14:04:17 IST" duration-ms="1539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BaseTest.HomePageTest.LoginTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="LoginTest()[pri:1, instance:BaseTest.HomePageTest@76b74e9c]" started-at="2023-01-09T14:04:17 IST" name="LoginTest" finished-at="2023-01-09T14:04:33 IST" duration-ms="15539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:BaseTest.HomePageTest@76b74e9c]" started-at="2023-01-09T14:04:33 IST" name="reportFlush" finished-at="2023-01-09T14:04:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=HomePageTest.LoginTest()[pri:1, instance:BaseTest.HomePageTest@76b74e9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:BaseTest.HomePageTest@76b74e9c]" started-at="2023-01-09T14:04:33 IST" name="startTest" finished-at="2023-01-09T14:04:34 IST" duration-ms="1360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BaseTest.HomePageTest.searchMobile() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="searchMobile()[pri:2, instance:BaseTest.HomePageTest@76b74e9c]" started-at="2023-01-09T14:04:34 IST" name="searchMobile" finished-at="2023-01-09T14:05:09 IST" duration-ms="34855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMobile -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:BaseTest.HomePageTest@76b74e9c]" started-at="2023-01-09T14:05:09 IST" name="reportFlush" finished-at="2023-01-09T14:05:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchMobile status=SUCCESS method=HomePageTest.searchMobile()[pri:2, instance:BaseTest.HomePageTest@76b74e9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:BaseTest.HomePageTest@76b74e9c]" started-at="2023-01-09T14:05:09 IST" name="startTest" finished-at="2023-01-09T14:05:19 IST" duration-ms="9605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BaseTest.HomePageTest.compareProduct() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="compareProduct()[pri:3, instance:BaseTest.HomePageTest@76b74e9c]" started-at="2023-01-09T14:05:19 IST" name="compareProduct" finished-at="2023-01-09T14:05:19 IST" duration-ms="5" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at ExcelReport.ExcelManager.toCheckExecutionRequired(ExcelManager.java:37)
+at BaseTest.HomePageTest.compareProduct(HomePageTest.java:98)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareProduct -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:BaseTest.HomePageTest@76b74e9c]" started-at="2023-01-09T14:05:19 IST" name="reportFlush" finished-at="2023-01-09T14:05:19 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=compareProduct status=SKIP method=HomePageTest.compareProduct()[pri:3, instance:BaseTest.HomePageTest@76b74e9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+      </class> <!-- BaseTest.HomePageTest -->
+      <class name="BaseTest.VerifyTitlePage">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:BaseTest.VerifyTitlePage@585811a4]" started-at="2023-01-09T14:03:41 IST" name="launchBrowser" finished-at="2023-01-09T14:03:44 IST" duration-ms="3813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:BaseTest.VerifyTitlePage@585811a4]" started-at="2023-01-09T14:03:44 IST" name="startTest" finished-at="2023-01-09T14:04:11 IST" duration-ms="26237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void BaseTest.VerifyTitlePage.verifyTitle() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="verifyTitle()[pri:0, instance:BaseTest.VerifyTitlePage@585811a4]" started-at="2023-01-09T14:04:11 IST" name="verifyTitle" finished-at="2023-01-09T14:04:16 IST" duration-ms="5178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:BaseTest.VerifyTitlePage@585811a4]" started-at="2023-01-09T14:04:16 IST" name="reportFlush" finished-at="2023-01-09T14:04:16 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTitle status=SUCCESS method=VerifyTitlePage.verifyTitle()[pri:0, instance:BaseTest.VerifyTitlePage@585811a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:BaseTest.VerifyTitlePage@585811a4]" started-at="2023-01-09T14:10:13 IST" name="CloseBrowser" finished-at="2023-01-09T14:10:15 IST" duration-ms="1979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- BaseTest.VerifyTitlePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

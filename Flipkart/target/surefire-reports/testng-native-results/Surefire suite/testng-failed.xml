@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="BaseTest.FooterPageTest">
+        <methods>
+          <include name="cancel"/>
+          <include name="launchBrowser"/>
+          <include name="startTest"/>
+          <include name="CloseBrowser"/>
+          <include name="giftCard"/>
+          <include name="SocialTest"/>
+          <include name="FaQTest"/>
+          <include name="reportFlush"/>
+        </methods>
+      </class> <!-- BaseTest.FooterPageTest -->
+      <class name="BaseTest.ExplorePlusePageTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="startTest"/>
+          <include name="ExplorePlus"/>
+          <include name="CloseBrowser"/>
+          <include name="reportFlush"/>
+          <include name="ExplorePlus1"/>
+        </methods>
+      </class> <!-- BaseTest.ExplorePlusePageTest -->
+      <class name="BaseTest.NavigatorTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="Rightnavigate"/>
+          <include name="startTest"/>
+          <include name="CloseBrowser"/>
+          <include name="leftNavigate"/>
+          <include name="reportFlush"/>
+        </methods>
+      </class> <!-- BaseTest.NavigatorTest -->
+      <class name="BaseTest.HeadersPageTest">
+        <methods>
+          <include name="electronic"/>
+          <include name="launchBrowser"/>
+          <include name="headersTest"/>
+          <include name="startTest"/>
+          <include name="CloseBrowser"/>
+          <include name="offer"/>
+          <include name="beauty"/>
+          <include name="TwoWhellers"/>
+          <include name="reportFlush"/>
+          <include name="BecameSeller"/>
+        </methods>
+      </class> <!-- BaseTest.HeadersPageTest -->
+      <class name="BaseTest.GroceryPageTest">
+        <methods>
+          <include name="Grocery"/>
+          <include name="launchBrowser"/>
+          <include name="startTest"/>
+          <include name="Cart"/>
+          <include name="CloseBrowser"/>
+          <include name="reportFlush"/>
+        </methods>
+      </class> <!-- BaseTest.GroceryPageTest -->
+      <class name="BaseTest.HomePageTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="startTest"/>
+          <include name="searchMobile"/>
+          <include name="compareProduct"/>
+          <include name="CloseBrowser"/>
+          <include name="reportFlush"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- BaseTest.HomePageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

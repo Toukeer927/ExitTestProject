@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods, 3 failed,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BaseTest.ExplorePlusePageTest" class="method navigator-link" hash-for-method="ExplorePlus">ExplorePlus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BaseTest.ExplorePlusePageTest" class="method navigator-link" hash-for-method="ExplorePlus1">ExplorePlus1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BaseTest.BasePageTest" class="method navigator-link" hash-for-method="compareProduct">compareProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BaseTest.HeadersPageTest" class="method navigator-link" hash-for-method="BecameSeller">BecameSeller</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BaseTest.GroceryPageTest" class="method navigator-link" hash-for-method="Cart">Cart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BaseTest.FooterPageTest" class="method navigator-link" hash-for-method="FaQTest">FaQTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BaseTest.GroceryPageTest" class="method navigator-link" hash-for-method="FaQTest">FaQTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BaseTest.FooterPageTest" class="method navigator-link" hash-for-method="FooterTest">FooterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BaseTest.HeadersPageTest" class="method navigator-link" hash-for-method="TwoWhellers">TwoWhellers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BaseTest.HeadersPageTest" class="method navigator-link" hash-for-method="beauty">beauty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BaseTest.FooterPageTest" class="method navigator-link" hash-for-method="cancel">cancel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BaseTest.HeadersPageTest" class="method navigator-link" hash-for-method="electronic">electronic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BaseTest.FooterPageTest" class="method navigator-link" hash-for-method="giftCard">giftCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BaseTest.HeadersPageTest" class="method navigator-link" hash-for-method="headersTest">headersTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BaseTest.NavigatorTest" class="method navigator-link" hash-for-method="leftNavigate">leftNavigate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BaseTest.NavigatorTest" class="method navigator-link" hash-for-method="navigate">navigate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BaseTest.HeadersPageTest" class="method navigator-link" hash-for-method="offer">offer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BaseTest.BasePageTest" class="method navigator-link" hash-for-method="pageTest">pageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="BaseTest.BasePageTest" class="method navigator-link" hash-for-method="searMobile">searMobile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">BaseTest.BasePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="compareProduct">
+                  </a> <!-- compareProduct -->
+                  <span class="method-name">compareProduct</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;xtXmba&quot;&gt;...&lt;/div&gt; is not clickable at point (169, 145). Other element would receive the click: &lt;div class=&quot;_2hriZF _2rbIyg&quot; tabindex=&quot;-1&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=108.0.5359.125)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;IN-PG02P4VN&apos;, ip: &apos;192.168.1.93&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [10ddf27b699980f3b0e252284efe805d, clickElement {id=fb987a86-046d-43a5-8c14-357729681136}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\MOHDTO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63016}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63016/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (10ddf27b699980f3b0e252284efe805d)] -&gt; xpath: //*[@id=&quot;container&quot;]/div/div[2]/div/div/div[2]/a/div[2]]
+Session ID: 10ddf27b699980f3b0e252284efe805d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy17.click(Unknown Source)
+	at HomePages.HomePage.Mobile(HomePage.java:53)
+	at BaseTest.BasePageTest.compareProduct(BasePageTest.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">BaseTest.ExplorePlusePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExplorePlus">
+                  </a> <!-- ExplorePlus -->
+                  <span class="method-name">ExplorePlus</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;_21ljIi&quot; href=&quot;/plus&quot;&gt;...&lt;/a&gt; is not clickable at point (223, 37). Other element would receive the click: &lt;div class=&quot;_2hriZF _2rbIyg&quot; tabindex=&quot;-1&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=108.0.5359.125)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;IN-PG02P4VN&apos;, ip: &apos;192.168.1.93&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [10ddf27b699980f3b0e252284efe805d, clickElement {id=6294dbf6-489e-4208-b3c6-98f285e7571e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\MOHDTO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63016}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63016/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (10ddf27b699980f3b0e252284efe805d)] -&gt; xpath: //body/div[@id=&apos;container&apos;]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/a[2]]
+Session ID: 10ddf27b699980f3b0e252284efe805d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy17.click(Unknown Source)
+	at HomePages.ExplorePlusPage.click_ExplorePlus(ExplorePlusPage.java:19)
+	at BaseTest.ExplorePlusePageTest.ExplorePlus(ExplorePlusePageTest.java:13)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExplorePlus1">
+                  </a> <!-- ExplorePlus1 -->
+                  <span class="method-name">ExplorePlus1</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;_21ljIi&quot; href=&quot;/plus&quot;&gt;...&lt;/a&gt; is not clickable at point (223, 37). Other element would receive the click: &lt;div class=&quot;_2hriZF _2rbIyg&quot; tabindex=&quot;-1&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=108.0.5359.125)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;IN-PG02P4VN&apos;, ip: &apos;192.168.1.93&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [10ddf27b699980f3b0e252284efe805d, clickElement {id=4b189c39-b5e3-4558-8cea-ba392f665867}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\MOHDTO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63016}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63016/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (10ddf27b699980f3b0e252284efe805d)] -&gt; xpath: //body/div[@id=&apos;container&apos;]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/a[2]]
+Session ID: 10ddf27b699980f3b0e252284efe805d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy17.click(Unknown Source)
+	at HomePages.ExplorePlusPage.click_ExplorePlus(ExplorePlusPage.java:19)
+	at BaseTest.ExplorePlusePageTest.ExplorePlus1(ExplorePlusePageTest.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BaseTest.NavigatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="leftNavigate">
+                  </a> <!-- leftNavigate -->
+                  <span class="method-name">leftNavigate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigate">
+                  </a> <!-- navigate -->
+                  <span class="method-name">navigate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BaseTest.FooterPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FaQTest">
+                  </a> <!-- FaQTest -->
+                  <span class="method-name">FaQTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FooterTest">
+                  </a> <!-- FooterTest -->
+                  <span class="method-name">FooterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cancel">
+                  </a> <!-- cancel -->
+                  <span class="method-name">cancel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="giftCard">
+                  </a> <!-- giftCard -->
+                  <span class="method-name">giftCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BaseTest.GroceryPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Cart">
+                  </a> <!-- Cart -->
+                  <span class="method-name">Cart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FaQTest">
+                  </a> <!-- FaQTest -->
+                  <span class="method-name">FaQTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BaseTest.BasePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="pageTest">
+                  </a> <!-- pageTest -->
+                  <span class="method-name">pageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searMobile">
+                  </a> <!-- searMobile -->
+                  <span class="method-name">searMobile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BaseTest.HeadersPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BecameSeller">
+                  </a> <!-- BecameSeller -->
+                  <span class="method-name">BecameSeller</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TwoWhellers">
+                  </a> <!-- TwoWhellers -->
+                  <span class="method-name">TwoWhellers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beauty">
+                  </a> <!-- beauty -->
+                  <span class="method-name">beauty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="electronic">
+                  </a> <!-- electronic -->
+                  <span class="method-name">electronic</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="headersTest">
+                  </a> <!-- headersTest -->
+                  <span class="method-name">headersTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="offer">
+                  </a> <!-- offer -->
+                  <span class="method-name">offer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BaseTest.BasePageTest&quot;/&gt;
+      &lt;class name=&quot;BaseTest.ExplorePlusePageTest&quot;/&gt;
+      &lt;class name=&quot;BaseTest.FooterPageTest&quot;/&gt;
+      &lt;class name=&quot;BaseTest.GroceryPageTest&quot;/&gt;
+      &lt;class name=&quot;BaseTest.HeadersPageTest&quot;/&gt;
+      &lt;class name=&quot;BaseTest.NavigatorTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'FooterTest')
+data.setCell(0, 2, 'BaseTest.FooterPageTest')
+data.setCell(0, 3, 69118);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'giftCard')
+data.setCell(1, 2, 'BaseTest.FooterPageTest')
+data.setCell(1, 3, 30415);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'searMobile')
+data.setCell(2, 2, 'BaseTest.BasePageTest')
+data.setCell(2, 3, 28864);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'FaQTest')
+data.setCell(3, 2, 'BaseTest.GroceryPageTest')
+data.setCell(3, 3, 25588);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'BecameSeller')
+data.setCell(4, 2, 'BaseTest.HeadersPageTest')
+data.setCell(4, 3, 24052);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'electronic')
+data.setCell(5, 2, 'BaseTest.HeadersPageTest')
+data.setCell(5, 3, 17461);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'FaQTest')
+data.setCell(6, 2, 'BaseTest.FooterPageTest')
+data.setCell(6, 3, 14555);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'cancel')
+data.setCell(7, 2, 'BaseTest.FooterPageTest')
+data.setCell(7, 3, 14490);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'offer')
+data.setCell(8, 2, 'BaseTest.HeadersPageTest')
+data.setCell(8, 3, 8369);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TwoWhellers')
+data.setCell(9, 2, 'BaseTest.HeadersPageTest')
+data.setCell(9, 3, 7756);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'beauty')
+data.setCell(10, 2, 'BaseTest.HeadersPageTest')
+data.setCell(10, 3, 5582);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'compareProduct')
+data.setCell(11, 2, 'BaseTest.BasePageTest')
+data.setCell(11, 3, 5158);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Cart')
+data.setCell(12, 2, 'BaseTest.GroceryPageTest')
+data.setCell(12, 3, 4987);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'pageTest')
+data.setCell(13, 2, 'BaseTest.BasePageTest')
+data.setCell(13, 3, 4664);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'headersTest')
+data.setCell(14, 2, 'BaseTest.HeadersPageTest')
+data.setCell(14, 3, 4510);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'ExplorePlus1')
+data.setCell(15, 2, 'BaseTest.ExplorePlusePageTest')
+data.setCell(15, 3, 1159);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'ExplorePlus')
+data.setCell(16, 2, 'BaseTest.ExplorePlusePageTest')
+data.setCell(16, 3, 1146);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'leftNavigate')
+data.setCell(17, 2, 'BaseTest.NavigatorTest')
+data.setCell(17, 3, 128);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'navigate')
+data.setCell(18, 2, 'BaseTest.NavigatorTest')
+data.setCell(18, 3, 119);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">10 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">BaseTest.NavigatorTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">CloseBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">BaseTest.FooterPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">CloseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">BaseTest.GroceryPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">CloseBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">BaseTest.ExplorePlusePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">CloseBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">BaseTest.HeadersPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">CloseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">BaseTest.BasePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void BaseTest.BasePageTest.pageTest() throws java.lang.InterruptedException)</span>
+                <span class="method-start">4131 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">pageTest</span>
+                <span class="method-start">49723 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportFlush([TestResult name=pageTest status=SUCCESS method=BasePageTest.pageTest()[pri:1, instance:BaseTest.Bas...)</span>
+                <span class="method-start">54390 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void BaseTest.BasePageTest.searMobile() throws java.lang.InterruptedException)</span>
+                <span class="method-start">54926 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searMobile</span>
+                <span class="method-start">56247 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportFlush([TestResult name=searMobile status=SUCCESS method=BasePageTest.searMobile()[pri:2, instance:BaseTest...)</span>
+                <span class="method-start">85112 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void BaseTest.BasePageTest.compareProduct() throws java.lang.InterruptedException)</span>
+                <span class="method-start">85191 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">compareProduct</span>
+                <span class="method-start">86569 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportFlush([TestResult name=compareProduct status=FAILURE method=BasePageTest.compareProduct()[pri:3, instance:...)</span>
+                <span class="method-start">91743 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BaseTest.ExplorePlusePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void BaseTest.ExplorePlusePageTest.ExplorePlus() throws java.lang.InterruptedException)</span>
+                <span class="method-start">91816 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExplorePlus</span>
+                <span class="method-start">93017 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportFlush([TestResult name=ExplorePlus status=FAILURE method=ExplorePlusePageTest.ExplorePlus()[pri:1, instanc...)</span>
+                <span class="method-start">94166 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void BaseTest.ExplorePlusePageTest.ExplorePlus1() throws java.lang.InterruptedException)</span>
+                <span class="method-start">94221 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExplorePlus1</span>
+                <span class="method-start">95542 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportFlush([TestResult name=ExplorePlus1 status=FAILURE method=ExplorePlusePageTest.ExplorePlus1()[pri:2, insta...)</span>
+                <span class="method-start">96703 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BaseTest.FooterPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void BaseTest.FooterPageTest.FooterTest() throws java.lang.InterruptedException)</span>
+                <span class="method-start">96774 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FooterTest</span>
+                <span class="method-start">97940 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportFlush([TestResult name=FooterTest status=SUCCESS method=FooterPageTest.FooterTest()[pri:1, instance:BaseTe...)</span>
+                <span class="method-start">167059 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void BaseTest.FooterPageTest.FaQTest() throws java.lang.InterruptedException)</span>
+                <span class="method-start">167116 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FaQTest</span>
+                <span class="method-start">168889 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportFlush([TestResult name=FaQTest status=SUCCESS method=FooterPageTest.FaQTest()[pri:2, instance:BaseTest.Foo...)</span>
+                <span class="method-start">183444 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void BaseTest.FooterPageTest.cancel() throws java.lang.InterruptedException)</span>
+                <span class="method-start">183511 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cancel</span>
+                <span class="method-start">184650 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportFlush([TestResult name=cancel status=SUCCESS method=FooterPageTest.cancel()[pri:3, instance:BaseTest.Foote...)</span>
+                <span class="method-start">199140 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void BaseTest.FooterPageTest.giftCard() throws java.lang.InterruptedException)</span>
+                <span class="method-start">199186 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">giftCard</span>
+                <span class="method-start">200731 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportFlush([TestResult name=giftCard status=SUCCESS method=FooterPageTest.giftCard()[pri:4, instance:BaseTest.F...)</span>
+                <span class="method-start">231147 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BaseTest.GroceryPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void BaseTest.GroceryPageTest.FaQTest() throws java.lang.InterruptedException)</span>
+                <span class="method-start">231211 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FaQTest</span>
+                <span class="method-start">232949 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportFlush([TestResult name=FaQTest status=SUCCESS method=GroceryPageTest.FaQTest()[pri:1, instance:BaseTest.Gr...)</span>
+                <span class="method-start">258537 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void BaseTest.GroceryPageTest.Cart() throws java.lang.InterruptedException)</span>
+                <span class="method-start">258592 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Cart</span>
+                <span class="method-start">260417 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportFlush([TestResult name=Cart status=SUCCESS method=GroceryPageTest.Cart()[pri:2, instance:BaseTest.GroceryP...)</span>
+                <span class="method-start">265404 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BaseTest.HeadersPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void BaseTest.HeadersPageTest.headersTest() throws java.lang.InterruptedException)</span>
+                <span class="method-start">265471 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">headersTest</span>
+                <span class="method-start">266560 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportFlush([TestResult name=headersTest status=SUCCESS method=HeadersPageTest.headersTest()[pri:1, instance:Bas...)</span>
+                <span class="method-start">271071 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void BaseTest.HeadersPageTest.electronic() throws java.lang.InterruptedException)</span>
+                <span class="method-start">271134 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">electronic</span>
+                <span class="method-start">273117 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportFlush([TestResult name=electronic status=SUCCESS method=HeadersPageTest.electronic()[pri:2, instance:BaseT...)</span>
+                <span class="method-start">290578 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void BaseTest.HeadersPageTest.offer() throws java.lang.InterruptedException)</span>
+                <span class="method-start">290600 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">offer</span>
+                <span class="method-start">292113 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportFlush([TestResult name=offer status=SUCCESS method=HeadersPageTest.offer()[pri:3, instance:BaseTest.Header...)</span>
+                <span class="method-start">300482 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void BaseTest.HeadersPageTest.beauty() throws java.lang.InterruptedException)</span>
+                <span class="method-start">300509 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">beauty</span>
+                <span class="method-start">301933 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportFlush([TestResult name=beauty status=SUCCESS method=HeadersPageTest.beauty()[pri:4, instance:BaseTest.Head...)</span>
+                <span class="method-start">307515 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void BaseTest.HeadersPageTest.TwoWhellers() throws java.lang.InterruptedException)</span>
+                <span class="method-start">307565 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TwoWhellers</span>
+                <span class="method-start">309090 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportFlush([TestResult name=TwoWhellers status=SUCCESS method=HeadersPageTest.TwoWhellers()[pri:5, instance:Bas...)</span>
+                <span class="method-start">316846 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void BaseTest.HeadersPageTest.BecameSeller() throws java.lang.InterruptedException)</span>
+                <span class="method-start">316871 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">BecameSeller</span>
+                <span class="method-start">318513 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportFlush([TestResult name=BecameSeller status=SUCCESS method=HeadersPageTest.BecameSeller()[pri:6, instance:B...)</span>
+                <span class="method-start">342566 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BaseTest.NavigatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void BaseTest.NavigatorTest.navigate())</span>
+                <span class="method-start">342595 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigate</span>
+                <span class="method-start">345452 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportFlush([TestResult name=navigate status=SUCCESS method=NavigatorTest.navigate()[pri:1, instance:BaseTest.Na...)</span>
+                <span class="method-start">345571 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void BaseTest.NavigatorTest.leftNavigate())</span>
+                <span class="method-start">345601 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">leftNavigate</span>
+                <span class="method-start">346895 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reportFlush([TestResult name=leftNavigate status=SUCCESS method=NavigatorTest.leftNavigate()[pri:2, instance:Bas...)</span>
+                <span class="method-start">347023 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BaseTest.BasePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">347156 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
